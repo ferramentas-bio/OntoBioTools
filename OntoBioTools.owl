@@ -1,0 +1,1598 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/walter/ontologies/2013/9/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/walter/ontologies/2013/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/walter/ontologies/2013/9/untitled-ontology-6"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/walter/ontologies/2013/9/ProteinTools3</IRI>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_d07e2658_b09b_4730_8852_c3fc1985d835"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_7edf6498_617a_49d8_ac28_9c40551423f3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ba4549e_1553_404b_bdd2_5c255ec5d62c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_65fe272e_56b9_4410_a8ec_16136b1fbc2c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotações_de_Estrutura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5570d214_3be6_425c_9265_cc0c5f2d294a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_d213683b_5df4_4334_9189_baaee0f05152"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotações_de_Função"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anotações"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_7769047a_b7fd_4fbe_ad6f_483d2b243348"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7d3bfba9_50c9_4373_9647_f5c4af46c671"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_52642be2_9ec7_4c24_b7f3_16a2c53c70ac"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c1b437dd_bbfb_4e60_8d11_63bcb73c64a9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_48e05350_7cf8_4c52_a8da_219c98cadae8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotação_de_Mapas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Estrutura_Secundária"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Sequência_de_Proteína"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_06eb3d8b_1194_4466_927a_05f63fbf0cc8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Imagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Proteína"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotação_de_Árvore_Filogenética"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Sequência_(pares)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anotação_de_Perfil_de_Expressão_Genômica_op"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_8651928d_0b26_447d_bc9c_354014b4a1f7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_443658c9_2b43_41c5_88c1_c7b19bc2ad36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Pares)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Todos_Átomos)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_48c67dc3_9268_4aff_a311_29fe4a4f9bdc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Átomos_c-alpha)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_05c9407b_9a87_4cc5_893f_799291d0200c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_RNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5b6a5d68_4071_4fed_835c_663cc00474cc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_459c5eba_731e_4755_94a1_23e59fcff6cc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Estrutura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStored"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Midas_plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9302a045_2fae_4e79_becc_6d2bbfd033b0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9e898a0a_c697_494c_8b55_bc1e6f03ddba"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico_(pares)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5e273751_94c8_45a0_99e1_39b401038512"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anotações_dt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_b0fc8862_f8e6_4d49_b54a_024dc007887b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4d6bbf9f_3893_4b3f_a4ed_73a5c3a34836"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e27b07b9_9995_4c97_914b_62d80664f617"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Análise_de_Interações_Proteína-Proteína_op"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_d4c802d2_3fab_409c_813a_e5fa3567116c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8a75fb1d_6820_44f7_8cc9_b4cd32bb92d9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mapeamento_de_Tags"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_bd307c84_34a4_4ac9_bfbb_071f949099a9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1f61fbff_eea6_4f25_bc03_9c5356f64447"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_51c11203_5546_4d77_bdbd_12451597a737"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotação_de_Genoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_63eaa056_a663_4019_80a4_e63190ed3ab7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_08366d64_527a_4950_ba10_56fec345e4fd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f901ad63_290c_4bd9_8ead_52e890c46eaa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_dfdbe79b_7b93_4b5a_83c6_6be32ed845bd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_04c0695c_eede_4a90_8958_aa673c29f2a5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alinhamento_de_Sequência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anotação_de_Sequências_op"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_7843d475_7f0e_4bbb_9c32_039719f42f1a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_31717081_bd2c_41ee_969c_55b96a9e999a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#armazenadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_e12bb825_8805_4c42_81e0_8dc7e3eafd58"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Estrutura"/>
+        <Class IRI="#Alinhamento_de_Proteína"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Estrutura_Secundária"/>
+        <Class IRI="#Dados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Proteína"/>
+        <Class IRI="#Dados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Sequência"/>
+        <Class IRI="#Dados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Sequência_de_Proteína"/>
+        <Class IRI="#Alinhamento_de_Proteína"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico"/>
+        <Class IRI="#Alinhamento_de_Sequência"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anotação_de_Perfil_de_Expressão_Genômica_op"/>
+        <Class IRI="#Anotações"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anotação_de_Sequências_op"/>
+        <Class IRI="#Anotações"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anotações"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anotações_dt"/>
+        <Class IRI="#Dados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Análise_de_Interações_Proteína-Proteína_op"/>
+        <Class IRI="#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dados"/>
+        <Class IRI="#OWLClass_65fe272e_56b9_4410_a8ec_16136b1fbc2c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_04c0695c_eede_4a90_8958_aa673c29f2a5"/>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d"/>
+        <Class IRI="#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1f61fbff_eea6_4f25_bc03_9c5356f64447"/>
+        <Class IRI="#OWLClass_7843d475_7f0e_4bbb_9c32_039719f42f1a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_48e05350_7cf8_4c52_a8da_219c98cadae8"/>
+        <Class IRI="#OWLClass_7843d475_7f0e_4bbb_9c32_039719f42f1a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4d6bbf9f_3893_4b3f_a4ed_73a5c3a34836"/>
+        <Class IRI="#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5570d214_3be6_425c_9265_cc0c5f2d294a"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5e273751_94c8_45a0_99e1_39b401038512"/>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_63eaa056_a663_4019_80a4_e63190ed3ab7"/>
+        <Class IRI="#OWLClass_5e273751_94c8_45a0_99e1_39b401038512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+        <Class IRI="#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_7843d475_7f0e_4bbb_9c32_039719f42f1a"/>
+        <Class IRI="#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_7edf6498_617a_49d8_ac28_9c40551423f3"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8a75fb1d_6820_44f7_8cc9_b4cd32bb92d9"/>
+        <Class IRI="#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9e898a0a_c697_494c_8b55_bc1e6f03ddba"/>
+        <Class IRI="#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+        <Class IRI="#OWLClass_65fe272e_56b9_4410_a8ec_16136b1fbc2c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e27b07b9_9995_4c97_914b_62d80664f617"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alinhamento_de_Sequência_(pares)"/>
+        <Class IRI="#Alinhamento_de_Sequência"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Anotação_de_Perfil_de_Expressão_Genômica_op"/>
+        <Class IRI="#Anotação_de_Sequências_op"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dados"/>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dados"/>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Estrutura_Secundária"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Proteína"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Estrutura_Secundária"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_RNA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Sequência_de_Proteína"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Sequência_(pares)"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotação_de_Sequências_op"/>
+        <NamedIndividual IRI="#Anotação_de_Genoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações"/>
+        <NamedIndividual IRI="#Anotação_de_Mapas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações"/>
+        <NamedIndividual IRI="#Anotação_de_Árvore_Filogenética"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações_dt"/>
+        <NamedIndividual IRI="#Anotações_de_Estrutura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações_dt"/>
+        <NamedIndividual IRI="#Anotações_de_Função"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações_dt"/>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotações_dt"/>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <NamedIndividual IRI="#Imagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anotação_de_Perfil_de_Expressão_Genômica_op"/>
+        <NamedIndividual IRI="#Mapeamento_de_Tags"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5570d214_3be6_425c_9265_cc0c5f2d294a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_05c9407b_9a87_4cc5_893f_799291d0200c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9e898a0a_c697_494c_8b55_bc1e6f03ddba"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_06eb3d8b_1194_4466_927a_05f63fbf0cc8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e27b07b9_9995_4c97_914b_62d80664f617"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_31717081_bd2c_41ee_969c_55b96a9e999a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9e898a0a_c697_494c_8b55_bc1e6f03ddba"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_443658c9_2b43_41c5_88c1_c7b19bc2ad36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_459c5eba_731e_4755_94a1_23e59fcff6cc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_04c0695c_eede_4a90_8958_aa673c29f2a5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_48c67dc3_9268_4aff_a311_29fe4a4f9bdc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_51c11203_5546_4d77_bdbd_12451597a737"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_48e05350_7cf8_4c52_a8da_219c98cadae8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_52642be2_9ec7_4c24_b7f3_16a2c53c70ac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_63eaa056_a663_4019_80a4_e63190ed3ab7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5b6a5d68_4071_4fed_835c_663cc00474cc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4d6bbf9f_3893_4b3f_a4ed_73a5c3a34836"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5570d214_3be6_425c_9265_cc0c5f2d294a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7769047a_b7fd_4fbe_ad6f_483d2b243348"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_04c0695c_eede_4a90_8958_aa673c29f2a5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ba4549e_1553_404b_bdd2_5c255ec5d62c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8651928d_0b26_447d_bc9c_354014b4a1f7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_1f61fbff_eea6_4f25_bc03_9c5356f64447"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9302a045_2fae_4e79_becc_6d2bbfd033b0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_7edf6498_617a_49d8_ac28_9c40551423f3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b0fc8862_f8e6_4d49_b54a_024dc007887b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_63eaa056_a663_4019_80a4_e63190ed3ab7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bd307c84_34a4_4ac9_bfbb_071f949099a9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c1b437dd_bbfb_4e60_8d11_63bcb73c64a9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_4d6bbf9f_3893_4b3f_a4ed_73a5c3a34836"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_d07e2658_b09b_4730_8852_c3fc1985d835"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_d213683b_5df4_4334_9189_baaee0f05152"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dfdbe79b_7b93_4b5a_83c6_6be32ed845bd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_7edf6498_617a_49d8_ac28_9c40551423f3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e27b07b9_9995_4c97_914b_62d80664f617"/>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dados"/>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Estrutura"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Pares)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Estrutura"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Todos_Átomos)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Estrutura"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Átomos_c-alpha)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico_(pares)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Sequência_(pares)"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico_(pares)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alinhamento_de_Sequência"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_RNA"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_RNA"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Estrutura"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Estrutura"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Função"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bd307c84_34a4_4ac9_bfbb_071f949099a9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7769047a_b7fd_4fbe_ad6f_483d2b243348"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#Midas_plus"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_51c11203_5546_4d77_bdbd_12451597a737"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+        <NamedIndividual IRI="#Imagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_48c67dc3_9268_4aff_a311_29fe4a4f9bdc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ba4549e_1553_404b_bdd2_5c255ec5d62c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+        <NamedIndividual IRI="#Imagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_48c67dc3_9268_4aff_a311_29fe4a4f9bdc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_05c9407b_9a87_4cc5_893f_799291d0200c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_51c11203_5546_4d77_bdbd_12451597a737"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#Anotações_de_Função"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#Anotações_de_Vias_Metabólicas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ba4549e_1553_404b_bdd2_5c255ec5d62c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+        <NamedIndividual IRI="#Anotações_de_Estrutura"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_459c5eba_731e_4755_94a1_23e59fcff6cc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_d213683b_5df4_4334_9189_baaee0f05152"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_459c5eba_731e_4755_94a1_23e59fcff6cc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_Proteína"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_Secundária_de_RNA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Pares_de_Proteína"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Todos_Átomos)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#Anotações_de_Sequência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico_(pares)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasStored"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_31717081_bd2c_41ee_969c_55b96a9e999a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8651928d_0b26_447d_bc9c_354014b4a1f7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c1b437dd_bbfb_4e60_8d11_63bcb73c64a9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <NamedIndividual IRI="#The_PredictProtein_Server"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_dfdbe79b_7b93_4b5a_83c6_6be32ed845bd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Vias_Metabólicas"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Pares)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Pares)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Todos_Átomos)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Todos_Átomos)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Átomos_c-alpha)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Estrutura_de_Proteínas_(Átomos_c-alpha)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequência_de_Ácido_Nucléico_(pares)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <NamedIndividual IRI="#Alinhamento_de_Sequências_(híbrido)"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <ObjectProperty IRI="#hasStored"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_e12bb825_8805_4c42_81e0_8dc7e3eafd58"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_7d3bfba9_50c9_4373_9647_f5c4af46c671"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_d4c802d2_3fab_409c_813a_e5fa3567116c"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_e12bb825_8805_4c42_81e0_8dc7e3eafd58"/>
+        <Class IRI="#OWLClass_f901ad63_290c_4bd9_8ead_52e890c46eaa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <Class IRI="#Dados"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStored"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6"/>
+        <Class IRI="#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <Class IRI="#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_7d3bfba9_50c9_4373_9647_f5c4af46c671"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+        <Class IRI="#OWLClass_bb6871d1_d95f_45c6_a183_032656026680"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_d4c802d2_3fab_409c_813a_e5fa3567116c"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_e12bb825_8805_4c42_81e0_8dc7e3eafd58"/>
+        <Class IRI="#OWLClass_08366d64_527a_4950_ba10_56fec345e4fd"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#armazenadoPor"/>
+        <Class IRI="#OWLClass_07c6b754_cc11_4664_8efb_69d627962202"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStored"/>
+        <Class IRI="#Dados"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <ObjectProperty IRI="#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c"/>
+        <ObjectProperty IRI="#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23"/>
+    </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anotação_de_Genoma</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Anotação_de_Genoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anotação_de_Mapas</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Anotação_de_Mapas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anotação_de_Árvore_Filogenética</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Anotação_de_Árvore_Filogenética</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anotações</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anotações_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anotações_dt</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anotações</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mapeamento_de_Tags</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Mapeamento_de_Tags</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_04c0695c_eede_4a90_8958_aa673c29f2a5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Associação de Estrutura Secundária de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_07c6b754_cc11_4664_8efb_69d627962202</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bancos de Dados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_07d9cee4_b9c8_440d_9829_9c35efb8b37d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento de Dados de Proteínas_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_08366d64_527a_4950_ba10_56fec345e4fd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Proteômica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_13c97ce9_d8b6_4d4a_a213_57357332e4c9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Análise e Processamento_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1f61fbff_eea6_4f25_bc03_9c5356f64447</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Predição de Função de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_207b445b_8871_4e29_a0d6_d0a443c03ff5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aplicações</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_48e05350_7cf8_4c52_a8da_219c98cadae8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Comparação de Função de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4d6bbf9f_3893_4b3f_a4ed_73a5c3a34836</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Análise de Enovelamento de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5570d214_3be6_425c_9265_cc0c5f2d294a</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Função</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_58a0d798_ad13_4452_9375_bc04adc22299</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Predição de Estrutura Secundária de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_59fdc185_0a42_4313_86e7_384c0d8bb0dc</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Formatos Específicos_fmt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5e273751_94c8_45a0_99e1_39b401038512</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento de Estrutura Secundária de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6327ce6a_1328_4ac3_a194_5da6906f50fb</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Formatos Genéricos_fmt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_63eaa056_a663_4019_80a4_e63190ed3ab7</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Comparação de Estrutura Secundária de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_65fe272e_56b9_4410_a8ec_16136b1fbc2c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Valor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6d5fe996_e3e7_4ef0_a8af_48b8c2593bb4</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estrutura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6ec36161_1dc1_4e10_a0c3_92669a13bb3e</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento de Estruturas Secundárias_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7843d475_7f0e_4bbb_9c32_039719f42f1a</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Análise de Função de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7edf6498_617a_49d8_ac28_9c40551423f3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sequência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_83f735cc_9d19_44be_a79e_fb5362f2a003</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operações</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8a75fb1d_6820_44f7_8cc9_b4cd32bb92d9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Renderização de Estrutura Secundária de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8b752789_214b_4b87_ad0c_e3694b3ef32d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Desktop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9e898a0a_c697_494c_8b55_bc1e6f03ddba</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Predição de Características de Proteína_op</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_bb6871d1_d95f_45c6_a183_032656026680</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Formatos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e27b07b9_9995_4c97_914b_62d80664f617</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Web</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f901ad63_290c_4bd9_8ead_52e890c46eaa</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bioinformática</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_02f88e99_0c7b_4211_af59_0d33393e8cc4</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">KEGG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_05c9407b_9a87_4cc5_893f_799291d0200c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">XLS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_06eb3d8b_1194_4466_927a_05f63fbf0cc8</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Características_de_Proteína_(Sequências)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_12e6add7_1666_496f_bab1_e739b8931c31</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">JMol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1fef5ebc_a0b8_4b08_8993_a9a10e77ba33</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Swiss PDB Viewer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_31717081_bd2c_41ee_969c_55b96a9e999a</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Estrutura_Secundária_(helices)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_443658c9_2b43_41c5_88c1_c7b19bc2ad36</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Características_de_Proteína_(Estruturas)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_459c5eba_731e_4755_94a1_23e59fcff6cc</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mmCIF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_48c67dc3_9268_4aff_a311_29fe4a4f9bdc</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Associação_usando_dados_de_coordenadas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_51c11203_5546_4d77_bdbd_12451597a737</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CSV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_52642be2_9ec7_4c24_b7f3_16a2c53c70ac</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Comparação_por_redes_de_interação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_5b6a5d68_4071_4fed_835c_663cc00474cc</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Alinhamento de Estrutura Secundária de Proteína</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_5da39388_6ce2_44d0_a886_adda84955907</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Sítio_de_Enovelamento_de_Proteína</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_6daac5d4_b54c_4498_a783_2a5b629f796f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Reactome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_74e550b4_02a0_4793_b4e5_69f43d9f37ae</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">XML</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7769047a_b7fd_4fbe_ad6f_483d2b243348</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plain Text File</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_7ba4549e_1553_404b_bdd2_5c255ec5d62c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Associação_usando_dados_de_CD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_8651928d_0b26_447d_bc9c_354014b4a1f7</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Estrutura_Secundária_(coils)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9302a045_2fae_4e79_becc_6d2bbfd033b0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Função_por_Sequência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_944bf61e_6f4f_4016_bfdf_84f01118880d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UniProtKB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_b0fc8862_f8e6_4d49_b54a_024dc007887b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SCOP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_bd307c84_34a4_4ac9_bfbb_071f949099a9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Comparação_de_Arquitetura_de_Proteína</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_be71d286_2fb3_4e48_b02b_7dae3a20b6e2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FASTA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c1b437dd_bbfb_4e60_8d11_63bcb73c64a9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Estrutura_Secundária_(turns)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ca6abd51_589a_440e_bee9_28aca10f5b95</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_caad7c0c_af98_4b8c_a9c3_4dccbee270b9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Simulação_de_Enovelamento_de_Proteína</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_d07e2658_b09b_4730_8852_c3fc1985d835</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PFD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_d213683b_5df4_4334_9189_baaee0f05152</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BLAST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_dfdbe79b_7b93_4b5a_83c6_6be32ed845bd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">op_Predição_de_Estrutura_Secundária_(disulfide_bonds)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_dffa4f1a_3a5c_4ff3_b4f7_b24d8031e386</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cref</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_ec263b29_502b_41be_81f0_cd2c6f621fb2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">wwPDB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f0e67652_21d9_4a50_a939_09203d182f2a</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Genbank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_21a4b88d_c7a3_4a95_b439_b8d36cc281d6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">implementa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_28d1044b_4871_4f12_98f1_b5e8b5caf33c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">executadoPor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_3b1c6137_0f52_4c36_bd93_f5e49ff5437f</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">aceitaEntrada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7d3bfba9_50c9_4373_9647_f5c4af46c671</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">extraidoDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_a62c7046_efb2_4f84_b140_5cadaee82c23</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geraSaida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_d4c802d2_3fab_409c_813a_e5fa3567116c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">depositaEm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_e12bb825_8805_4c42_81e0_8dc7e3eafd58</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">estuda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasStored</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">armazena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasStored</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">armazena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alinhamento_de_Estrutura_de_Proteínas_(Pares)</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alinhamento de Estrutura de Proteínas (Pares)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
